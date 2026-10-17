@@ -1,0 +1,23 @@
+# Environnement virtuel Python
+.venv/
+
+# Fichiers générés par Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Notebooks : points de contrôle automatiques
+.ipynb_checkpoints/
+
+# Données : non versionnées (source publique, re-téléchargeable)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Éditeur et système
+.vscode/
+Thumbs.db
+
+# Secrets (aucun ici, mais bonne habitude)
+.env
